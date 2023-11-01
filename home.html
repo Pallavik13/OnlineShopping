@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            body {
+                 height: 100%;
+                background-position: center;
+                 background-repeat: no-repeat;
+                  background-size: cover;
+                 background-attachment: fixed;
+             }
+             .column {
+                float: left;
+                width: 30%;
+                padding: 10px;
+                margin-top: 10px;
+                }
+                .column img {
+                opacity: 1; 
+                cursor: pointer; 
+                }
+                .row:after {
+                content: "";
+                display: table;
+                clear: both;
+                }
+            </style>
+        <title>BUSINESS WEBSITE</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body background="AA 2.png" ;>
+        <div>
+            <p class="heading-logo">ATTIRE AVENUE</p>
+            <p class="mini-logo">FIND YOUR FASHION</p>
+        </div>
+        <div class="gif">
+            <img src="final.gif" width="30%"/>
+        </div>
+        <div>
+           <hr width="100%" color="#f72769" size="3"/>
+        </div> 
+        <a class="about" href="about.html">ABOUT</a>
+        <a class="reviews" href="reviews.html">REVIEWS</a>
+        <div class="nav">
+            <input type="text" placeholder="Search..">
+        </div>
+        <div>
+            <br />
+            <hr width="100%" color="#f72769" size="3"/>
+         </div> 
+        <div class="row">
+            <div class="column" style="top: 100px;">
+                <div class="product-section">
+                    <div class="product-border">
+                      <div class="product-img-center">
+                        <a href="#">
+                          <img class="product-img" src="d1.jpg" onclick="change(this.src)">
+                        </a>
+                      </div>
+                      <div>
+                        <p class="product-name">
+                          <a href="#">Cindrella dress</a>
+                        </p>
+                          <p class="product-price">
+                          <span class="product-discounted-price">Rs.549.00</span>
+                          <span class="product-original-price">Rs.554</span>
+                          <span class="product-discount">10%OFF</span>
+                      </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="column">
+                <div class="product-section">
+                    <div class="product-border">
+                      <div class="product-img-center">
+                        <a href="#">
+                          <img class="product-img" src="d2.jpg" >
+                        </a>
+                      </div>
+                      <div>
+                        <p class="product-name">
+                          <a href="#">Indian traditional couple dress</a>
+                        </p>
+                        <p class="product-price">
+                          <span class="product-discounted-price">Rs.900</span>
+                          <span class="product-original-price">Rs.1000</span>
+                          <span class="product-discount">10%OFF</span>
+                      </div>
+                    </div>
+            </div>
+        </div>
+        <div class="column">
+            <div class="product-section">
+                <div class="product-border">
+                  <div class="product-img-center">
+                    <a href="#">
+                      <img class="product-img" src="d3.jpg" >
+                    </a>
+                  </div>
+                  <div>
+                    <p class="product-name">
+                      <a href="#">Navy blue long dress</a>
+                    </p>
+                    <p class="product-price">
+                      <span class="product-discounted-price">Rs.700.00</span>
+                      <span class="product-original-price">Rs.726</span>
+                      <span class="product-discount">10%OFF</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="column">
+            <div class="product-section">
+                <div class="product-border">
+                  <div class="product-img-center">
+                    <a href="#">
+                      <img class="product-img" src="d4.jpg">
+                    </a>
+                  </div>
+                  <div>
+                    <p class="product-name">
+                      <a href="#">Indian couple ethnic wear</a>
+                    </p>
+                   <p class="product-price">
+                      <span class="product-discounted-price">Rs.1425.00</span>
+                      <span class="product-original-price">Rs.1500</span>
+                      <span class="product-discount">5%OFF</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="column">
+            <div class="product-section">
+                <div class="product-border">
+                  <div class="product-img-center">
+                    <a href="#">
+                      <img class="product-img" src="d5.jpg" >
+                    </a>
+                  </div>
+                  <div>
+                    <p class="product-name">
+                      <a href="#">Party wear saree</a>
+                    </p>
+                    <p class="product-price">
+                      <span class="product-discounted-price">Rs.549.00</span>
+                      <span class="product-original-price">Rs.554</span>
+                      <span class="product-discount">10%OFF</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="column">
+            <div class="product-section">
+                <div class="product-border">
+                  <div class="product-img-center">
+                    <a href="#">
+                      <img class="product-img" src="d6.jpg">
+                    </a>
+                  </div>
+                  <div>
+                    <p class="product-name">
+                      <a href="#">Party wear couple dress</a>
+                    </p>
+                   <p class="product-price">
+                      <span class="product-discounted-price">Rs.1620</span>
+                      <span class="product-original-price">Rs.1800</span>
+                      <span class="product-discount">10%OFF</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="column">
+            <div class="product-section">
+                <div class="product-border">
+                  <div class="product-img-center">
+                    <a href="#">
+                      <img class="product-img" src="d7.jpg">
+                    </a>
+                  </div>
+                  <div>
+                    <p class="product-name">
+                      <a href="#">Girls ethnic wear</a>
+                    </p>
+                    <p class="product-price">
+                      <span class="product-discounted-price">Rs.949.05</span>
+                      <span class="product-original-price">Rs.999</span>
+                      <span class="product-discount">5%OFF</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="column">
+            <div class="product-section">
+                <div class="product-border">
+                  <div class="product-img-center">
+                    <a href="#">
+                      <img class="product-img" src="d8.jpg" > 
+                    </a>
+                  </div>
+                  <div>
+                    <p class="product-name">
+                      <a href="#">Boys casual wear with jacket</a>
+                    </p>
+                    <p class="product-price">
+                      <span class="product-discounted-price">Rs.549.00</span>
+                      <span class="product-original-price">Rs.554</span>
+                      <span class="product-discount">10%OFF</span>
+                  </div>
+                </div>
+              </div>
+        </div>
+        <div class="column">
+            <div class="product-section">
+                <div class="product-border">
+                  <div class="product-img-center">
+                    <a href="#">
+                      <img class="product-img" src="d9.png">
+                    </a>
+                  </div>
+                  <div>
+                    <p class="product-name">
+                      <a href="#">Boys traditional wear</a>
+                    </p>
+                     <p class="product-price">
+                      <span class="product-discounted-price">Rs.1092</span>
+                      <span class="product-original-price">Rs.1200</span>
+                      <span class="product-discount">9%OFF</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+              <div class="column">
+                <div class="product-section">
+                  <div class="product-border">
+                    <div class="product-img-center">
+                      <a href="#">
+                        <img class="product-img" src="d10.jpg" >
+                      </a>
+                    </div>
+                    <div>
+                      <p class="product-name">
+                        <a href="#">Boys blazer</a>
+                      </p>
+                      <p class="product-price">
+                        <span class="product-discounted-price">Rs.950.00</span>
+                        <span class="product-original-price">Rs.1000</span>
+                        <span class="product-discount">5%OFF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="product-section">
+                  <div class="product-border">
+                    <div class="product-img-center">
+                      <a href="#">
+                        <img class="product-img" src="d11.jpg" >
+                      </a>
+                    </div>
+                    <div>
+                      <p class="product-name">
+                        <a href="#">Boys casual wear</a>
+                      </p>
+                       <p class="product-price">
+                        <span class="product-discounted-price">Rs.554.00</span>
+                        <span class="product-original-price">Rs.564</span>
+                        <span class="product-discount">6%OFF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="product-section">
+                  <div class="product-border">
+                    <div class="product-img-center">
+                      <a href="#">
+                        <img class="product-img" src="d12.jpg" >
+                      </a>
+                    </div>
+                    <div>
+                      <p class="product-name">
+                        <a href="#">Girls long ghagra</a>
+                      </p>
+                      <p class="product-price">
+                        <span class="product-discounted-price">Rs.1302.00</span>
+                        <span class="product-original-price">Rs.1400</span>
+                        <span class="product-discount">7%OFF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="product-section">
+                  <div class="product-border">
+                    <div class="product-img-center">
+                      <a href="#">
+                        <img class="product-img" src="d13.jpg">
+                      </a>
+                    </div>
+                    <div>
+                      <p class="product-name">
+                        <a href="#">Girls office wear</a>
+                      </p>
+                     <p class="product-price">
+                        <span class="product-discounted-price">Rs.1410</span>
+                        <span class="product-original-price">Rs.1500</span>
+                        <span class="product-discount">6%OFF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="product-section">
+                  <div class="product-border">
+                    <div class="product-img-center">
+                      <a href="#">
+                        <img class="product-img" src="d14.png" >
+                      </a>
+                    </div>
+                    <div>
+                      <p class="product-name">
+                        <a href="#">Womens office wear</a>
+                      </p>
+                      <p class="product-price">
+                        <span class="product-discounted-price">Rs.1620</span>
+                        <span class="product-original-price">Rs.1800</span>
+                        <span class="product-discount">10%OFF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="product-section">
+                  <div class="product-border">
+                    <div class="product-img-center">
+                      <a href="#">
+                        <img class="product-img" src="d15.jpg" >
+                      </a>
+                    </div>
+                    <div>
+                      <p class="product-name">
+                        <a href="#">Girls traditional wear</a>
+                      </p>
+                     <p class="product-price">
+                        <span class="product-discounted-price">Rs.1656</span>
+                        <span class="product-original-price">Rs.1800</span>
+                        <span class="product-discount">8%OFF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="column">
+                <div class="product-section">
+                  <div class="product-border">
+                    <div class="product-img-center"  >
+                      <a href="#">
+                        <img class="product-img" src="d15.jpg">
+                      </a>
+                    </div>
+                    <div>
+                      <p class="product-name">
+                        <a href="#">Girls traditional wear small size</a>
+                      </p>
+                     <p class="product-price">
+                        <span class="product-discounted-price">Rs.1350.00</span>
+                        <span class="product-original-price">Rs.1500</span>
+                        <span class="product-discount">10%OFF</span>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+        <div class="width-100 margin-top-50 footer">
+            <div class="container">
+                <table>
+                    <tr>
+                        <th>
+                            <h2 class="quicklink-heading">Account Detail</h2>
+                        </th>
+                        <td><br /><br /></td>
+                        <td><br /><br /></td>
+                        <th>
+                            <h2 class="quicklink-heading">GET IN TOUCH</h2>
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <div class="width-25">
+                                <ul class="quicklink-menu">
+                                  <li><a href="#">Home</a></li>
+                                  <li><a href="about.html">About us</a></li>
+                                  <li><a href="#">Search</a></li>
+                                  <li><a href="reviews.html">Reviews</a></li>
+                                  <li><a href="#">Checkout</a></li>
+                                </ul>
+                              </div>
+                        </td>
+                        <td><br /><br /></td>
+                        <td><br /><br /></td>
+                        <td>
+                            <div class="width-10">
+                                <ul class="get-in-touch">
+                                  <li><i class="fa fa-envelope-o" aria-hidden="true"></i>E-MAIL:<a href="#" class="footer-e-mail"> attireavenue@gmail.com</a></li>
+                                  <li><i class="fa fa-headphones" aria-hidden="true"></i>WHATS-APP: +91 1234567890</li>
+                                  <li><i class="fa fa-fax" aria-hidden="true"></i>CONTACT NO.: +91 1234567890</li>
+                                  <li><i class="fa fa-globe" aria-hidden="true"></i>WEBSITE:<a href="#" class="footer-website"> https://www.attireavenue.com</a></li>
+                                </ul>
+                                <ul class="social-media">
+                                  <li><a href="#"><img src="logo1.jpg"></a></li>
+                                  <li><a href="#"><img src="logo2.jpg"></a></li>
+                                  <li><a href="#"><img src="logo3.png"></a></li>
+                                  <li><a href="#"><img src="logo5.png"></a></li>
+                                </ul>
+                              </div>
+                        </td>
+                    </tr>
+                </table>        
+            </div>
+          </div>
+   </body>
+</html>

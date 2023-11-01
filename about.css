@@ -1,0 +1,26 @@
+.head1{
+    position: relative;
+    margin-top: 0px;
+    margin-bottom: 5px;
+    font-size: 50px;
+    color: #f72769;
+}
+.head2{
+    position: relative;
+    margin-top: 10px;
+    font-size: 20px;
+    color: black;
+}
+.gif{
+    position: relative;
+    top: 10px;
+    left: 10px;
+} 
+.heading{
+    position:absolute;
+    top:0px;
+    color: #f72769;
+    letter-spacing: 10px;
+    left: 500px;
+    font-size: 90px;
+}

@@ -1,0 +1,175 @@
+.heading-logo{
+    position: relative; 
+    text-align: center;
+    color: #f72769;
+    font-size: 100px;
+    margin-bottom: 0.5px;
+    margin-top: 0.5px;
+   
+}
+p.mini-logo{
+    margin-top: 0.5px;
+    letter-spacing: 10px;
+    position: relative;
+    text-align: center;
+    color: navy;
+    font-size: 50px;
+}
+.gif{
+    position: absolute;
+    top: 10px;
+    left: 10px;
+}       
+.about{
+    position:relative;
+    font-size: 20px;
+    color: navy;
+    margin-top: 0.5px;
+    left:750px;
+}
+.reviews{
+    position:relative;
+    font-size: 20px;
+    color: navy;
+    margin-top: 0.5px;
+    left:800px;
+}
+.nav input[type=text] {
+    position: relative;
+    float: right;
+    padding: 5px;
+    border: none;
+    top: -20px;
+    margin-right: 16px;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .nav input[type=text] {
+      float: none;
+      display: block;
+      text-align: left;
+      width: 50%;
+      margin: 0;
+      padding: 8px;
+    }
+    .nav input[type=text] {
+      border: 1px solid #fe8b3e;
+    }
+  }
+
+
+  .product-section {
+	padding-left:15px;
+	padding-right:15px;
+	margin-bottom:20px;
+  margin-top: 10px;
+}
+.product-img {
+	width:auto;
+	height:270px;
+  align-content: center;
+}
+.product-img-center {
+	text-align:center;
+}
+.product-border {
+	border: 1px solid #d1d1d1;
+	padding:30px;
+  width: 300px;;
+}
+.product-name a {
+	color: #232b33;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: 'Roboto', sans-serif, arial;
+}
+.product-discounted-price {
+	color: #333;
+	font-size: 18px;
+	letter-spacing: 0.1px;
+	font-weight: 600;
+	font-family: 'Roboto', sans-serif, arial;
+}
+.product-original-price {
+	color: #6f6f6f;
+	text-decoration: line-through;
+	font-size:14px;
+	font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+.product-discount {
+	border: 1px solid #ccc;
+	background: #fff;
+	display: inline-block;
+	font-size: 10px;
+	color: #999;
+	padding: 5px;
+	border-radius: 1px;
+
+}
+.product-price {
+	margin-top:15px;
+}
+
+
+.footer {
+    background: #ffb870;
+    padding: 50px 0px;
+  }
+  .quicklink-menu {
+    list-style: none;
+    padding-left: 10px;
+  }
+  .quicklink-menu li a {
+    color: #ff0051;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+    font-family :'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .social-media {
+    list-style: none;
+    margin-top: 10px;
+  }
+  .social-media li a img {
+    width: 30px;
+  }
+  .social-media li {
+    float: left;
+    padding: 0px 8px;
+  }
+  .quicklink-heading {
+    font-size: 18px;
+    font-weight: bold;
+    color: navy;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    margin-bottom: 0px;
+  }
+  .get-in-touch {
+    list-style: none;
+    padding-left: 10px;
+  }
+  .get-in-touch li i {
+    color: #ff0051;
+    font-size: 20px;
+  }
+  .get-in-touch li {
+    color: #ff0051;
+    line-height: 2.5;
+    font-size: 15px;
+    text-decoration: none;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+  }
+  .footer-e-mail {
+    font-size: 15px;
+    font-weight: bold;
+    color: #ff0051;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
+  .footer-website {
+    font-size: 12px;
+    font-weight: bold;
+    color: #ff0051;
+    font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+    text-decoration: none;
+  }
